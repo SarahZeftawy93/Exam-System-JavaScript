@@ -1,0 +1,760 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>www.css3maker.com</title>
+<script src="jquery-2.1.4.js"></script>
+<link rel="stylesheet" type="text/css" href="JS projectCSS.css"/>
+
+<script type="text/javascript">
+
+
+//////////////////// generate random /////////////////////////////
+            var arry=[];
+            while(arry.length < 30)
+            {
+
+                var rndm=(Math.floor(Math.random()*50));
+                var test=false;
+
+                for(var k=0 ; k<30;k++)
+                {
+                    if (arry[k] == rndm)
+                    {
+                        test=true;
+                    }
+                }
+                if(test==false)
+                {
+                    arry[arry.length] = rndm;
+                }
+            }
+
+        //    alert(arry);
+
+///////////////////////////////////////////////
+
+  var str = [{"QuestionBody":"Can you hear what he is .......?","Answers":["(a) saying","(b) speaking","(c) telling","(d) talking"],"CorrectAnswer":"0","degree":"1"},{"QuestionBody":"She hasn/'t come home ........","Answers":["(a) still","(b) already","(c) yet","(d) till"],"CorrectAnswer":"2","degree":"2"},{"QuestionBody":"I ....... TV yesterday evening.","Answers":["(a) saw","(b) looked","(c) viewed","(d) watched"],"CorrectAnswer":"3","degree":"1"},{"QuestionBody":"We live ....... the city centre.","Answers":["(a) near","(b) next","(c) by","(d) nearby"],"CorrectAnswer":"0","degree":"3"},{"QuestionBody":"She looks ....... a famous film star.","Answers":["(a) as","(b) like","(c) similar","(d) same"],"CorrectAnswer":"1","degree":"1"},{"QuestionBody":"This television gives you the ....... news.","Answers":["(a) last","(b) latest","(c) least","(d) later"],"CorrectAnswer":"1","degree":"4"},{"QuestionBody":"I only ....... one mistake in last night/'s test.","Answers":["(a) made","(b) done","(c) did","(d) make"],"CorrectAnswer":"0","degree":"1"},{"QuestionBody":"I want you to tell me the ....... truth.","Answers":["(a) all","(b) exact","(c) real","(d) whole"],"CorrectAnswer":"3","degree":"3"},{"QuestionBody":"He is looking ....... a present to buy his girlfriend.","Answers":["(a) for","(b) at","(c) in","(d) on"],"CorrectAnswer":"0","degree":"2"},{"QuestionBody":"That/'s what I would like ....... Christmas.","Answers":["(a) for","(b) at","(c) in","(d) on"],"CorrectAnswer":"0","degree":"3"},{"QuestionBody":"You must not drink and then ....... a car.","Answers":["(a) lead","(b) drive","(c) take","(d) guide"],"CorrectAnswer":"1","degree":"4"},{"QuestionBody":"Please be ....... when you cross this road.","Answers":["(a) careless","(b) carefree","(c) caring","(d) careful"],"CorrectAnswer":"3","degree":"1"},{"QuestionBody":"Do what you like, I really don/'t ........","Answers":["(a) concern","(b) interested","(c) dislike","(d) mind"],"CorrectAnswer":"3","degree":"5"},{"QuestionBody":"If you want to ....... that book remember to bring it back.","Answers":["(a) borrow","(b) lend","(c) loan","(d) owe"],"CorrectAnswer":"0","degree":"1"},{"QuestionBody":"When your train arrives, I/'ll ....... you from the station.","Answers":["(a) take.","(b) bring","(c) fetch","(d) remove"],"CorrectAnswer":"2","degree":"2"},{"QuestionBody":"I always get ....... early in the summer.","Answers":["(a) up","(b) over","(c) through","(d) on"],"CorrectAnswer":"0","degree":"3"},{"QuestionBody":"When you first meet someone, you usually shake them ....... the hand.","Answers":["(a) with","(b) on","(c) in","(d) by"],"CorrectAnswer":"3","degree":"1"},{"QuestionBody":"The teacher asked her students to do their ........","Answers":["(a) housework","(b) homework","(c) home duty","(d) house job"],"CorrectAnswer":"1","degree":"3"},{"QuestionBody":"The police officer told the children always to tell the ........","Answers":["(a) true","(b) facts","(c) information","(d) truth"],"CorrectAnswer":"3","degree":"2"},{"QuestionBody":"I/'m terribly sorry but I ....... what you said just now and I wonder if you could repeat it.","Answers":["(a) wasn/'t listen to","(b) wasn/'t hearing","(c) didn/'t hear","(d) didn/'t hearing"],"CorrectAnswer":"2","degree":"1"},{"QuestionBody":"I ....... attentively to the lecture on philosophy but I still didn/'t understand much of it.","Answers":["(a) heard","(b) listened","(c) was hearing","(d) was listen"],"CorrectAnswer":"1","degree":"2"},{"QuestionBody":"Can you ....... me all right over there because you are rather a long way away?","Answers":["(a) listening","(b) hearing","(c) listen","(d) hear"],"CorrectAnswer":"3","degree":"3"},{"QuestionBody":"I ....... what you are saying but that still doesn/'t make me want to change my mind one little bit.","Answers":["(a) listen","(b) hear.","(c) am listing","(d) am hearing"],"CorrectAnswer":"1","degree":"1"},{"QuestionBody":"I ....... to the concert every Monday on the radio and I imagine I am there listening to it in person.","Answers":["(a) listen","(b) am listening","(c) hear","(d) am hearing"],"CorrectAnswer":"0","degree":"2"},{"QuestionBody":"I should explain that he finds it very difficult to follow your conversation because he is very hard of ........","Answers":["(a) listen to","(b) listening","(c) to hear","(d) hearing"],"CorrectAnswer":"3","degree":"1"},{"QuestionBody":"Now will you please ....... me and pay attention to what I/'m saying because it/'s very important.","Answers":["(a) hear","(b) listen to","(c) hearing","(d) listening to"],"CorrectAnswer":"1","degree":"3"},{"QuestionBody":"You/'ve been making so much noise with your music that people at the far end of the road can ....... you.","Answers":["(a) listen to","(b) listening to","(c) hear","(d) hearing"],"CorrectAnswer":"2","degree":"4"},{"QuestionBody":"He sometimes pretends he can/'t ....... a single word you are saying but all the time he/'s taking it all in.","Answers":["(a) listen to","(b) listening to","(c) hear","(d) hearing"],"CorrectAnswer":"2","degree":"1"},{"QuestionBody":"I have been ....... strange stories about you recently but I do hope that there is no substance in them.","Answers":["(a) listened to","(b) listening to","(c) heard","(d) hearing"],"CorrectAnswer":"3","degree":"3"},{"QuestionBody":"The brothers will ....... school both together at the end the year.","Answers":["(a) end","(b) ending","(c) finish","(d) finishes"],"CorrectAnswer":"2","degree":"5"},{"QuestionBody":"I ___ watching TV when Paul and Simon arrived.","Answers":["(a) was","(b) is","(c) were","(d) am"],"CorrectAnswer":"1","degree":"1"},{"QuestionBody":"Do you think he ___ what I said?","Answers":["(a) understand","(b) understood","(c) understanding","(d) not exist"],"CorrectAnswer":"2","degree":"2"},{"QuestionBody":"She ___ to learn English in Malta next summer.","Answers":["(a) hopes","(b) hope","(c) hoping","(d) not exist"],"CorrectAnswer":"1","degree":"1"},{"QuestionBody":" I don't think I've ever ___ on that sofa.","Answers":["(a) sitting","(b) sit","(c) sat","(d) not exist"],"CorrectAnswer":"3","degree":"3"},{"QuestionBody":"Tom ___ tired. ","Answers":["(a) looking","(b) looks","(c) look","(d) not exist"],"CorrectAnswer":"2","degree":"1"},{"QuestionBody":"When I was young I wanted to ___ a vet.","Answers":["(a) was","(b) am","(c) is","(d) be"],"CorrectAnswer":"4","degree":"2"},{"QuestionBody":"Did you used to ___ with dolls?","Answers":["(a) playing","(b) played","(c) play","(d) not exist"],"CorrectAnswer":"3","degree":"1"},{"QuestionBody":" I've never ___ sushi before.","Answers":["(a) eat","(b) eaten","(c) ate","(d) not exist"],"CorrectAnswer":"3","degree":"3"},{"QuestionBody":"The window was already ___ when I got here.","Answers":["(a) break","(b) broke","(c) broken","(d) not exist"],"CorrectAnswer":"3","degree":"1"},{"QuestionBody":" Last night I ___ on the carpet and fell asleep.","Answers":["(a) lied","(b) lay","(c) lie","(d) not exist"],"CorrectAnswer":"2","degree":"4"},{"QuestionBody":"They climbed ___ the highest hill they could find.","Answers":["(a) under","(b) up","(c) for","(d) not exist"],"CorrectAnswer":"2","degree":"1"},{"QuestionBody":" I was born ___ May.","Answers":["(a) on","(b) in","(c) at","(d) not exist"],"CorrectAnswer":"2","degree":"1"},{"QuestionBody":" We got married ___ our son was born.","Answers":["(a) before","(b) up","(c) within","(d) not exist"],"CorrectAnswer":"1","degree":"2"},{"QuestionBody":" The farmer wakes up ___ sunrise.","Answers":["(a) on","(b) at","(c) of","(d) not exist"],"CorrectAnswer":"2","degree":"3"},{"QuestionBody":"The River Thames flows ____ London.","Answers":["(a) over","(b) on","(c) through","(d) not exist"],"CorrectAnswer":"3","degree":"4"},{"QuestionBody":" I think Sharon just drove ___ us.","Answers":["(a) on","(b) past","(c) from","(d) not exist"],"CorrectAnswer":"2","degree":"1"},{"QuestionBody":" We moved into our apartment ___ 2012.","Answers":["(a) at","(b) on","(c) in","(d) not exist"],"CorrectAnswer":"3","degree":"3"},{"QuestionBody":" She hurt her arm when she fell ___ her bike.","Answers":["(a) off","(b) down","(c) in","(d) not exist"],"CorrectAnswer":"1","degree":"2"},{"QuestionBody":" The bird flew low ___ our heads.","Answers":["(a) under","(b) on","(c) over","(d) not exist"],"CorrectAnswer":"3","degree":"2"},{"QuestionBody":" We have to get ___ the bus at the next stop.","Answers":["(a) down","(b) from","(c) off","(d) not exist"],"CorrectAnswer":"3","degree":"3"}];
+
+
+  var str2=[{"QuestionBody":"Look at this series: 2, 4,6, 8, 10, . . . What numbershould come next?","Answers":["a. 11","b. 12","c. 13","d. 14"],"CorrectAnswer":"1","degree":"1"},{"QuestionBody":"Look at this series: 58, 52, 46, 40, 34, . . . What number should come next?","Answers":["a. 26","b. 28","c. 30","d. 32"],"CorrectAnswer":"1","degree":"2"},{"QuestionBody":"Look at this series: 40, 40, 47, 47, 54, . . . What number should come next?","Answers":["a. 40","b. 44","c. 54","d. 61"],"CorrectAnswer":"2","degree":"3"},{"QuestionBody":"Look at this series: 544, 509, 474, 439, . . . What number should come next?","Answers":["a. 404","b. 414","c. 420","d. 445"],"CorrectAnswer":"0","degree":"4"},{"QuestionBody":"Look at this series: 201, 202, 204, 207, . . . What number should come next?","Answers":["a. 205","b. 208","c. 210","d. 211"],"CorrectAnswer":"3","degree":"1"},{"QuestionBody":"Look at this series: 8, 22, 8, 28, 8, . . . What number should come next?","Answers":["a. 9","b. 29","c. 32","d. 34"],"CorrectAnswer":"3","degree":"2"},{"QuestionBody":"Look at this series: 80, 10, 70, 15, 60, . . . What number should come next?","Answers":["a. 20","b. 25","c. 30","d. 50"],"CorrectAnswer":"0","degree":"3"},{"QuestionBody":"Look at this series: 36, 34, 30, 28, 24, . . . What number should come next?","Answers":["a. 20","b. 22","c. 23","d. 26"],"CorrectAnswer":"1","degree":"4"},{"QuestionBody":"Look at this series: 22, 21, 23, 22, 24, 23, . . .What number should come next?","Answers":["a. 22","b. 24","c. 25","d. 26"],"CorrectAnswer":"2","degree":"1"},{"QuestionBody":"QPO NML KJI _____ EDC","Answers":["a. HGF","b. CAB","c. JKL","d. GHI"],"CorrectAnswer":"0","degree":"2"},{"QuestionBody":"Which word does NOT belong with the others?","Answers":["a. leopard","b. cougar","c. elephant","d. lion"],"CorrectAnswer":"2","degree":"3"},{"QuestionBody":"Which word does NOT belong with the others?","Answers":["a. tire","b. steering wheel","c. engine","d. car"],"CorrectAnswer":"3","degree":"4"},{"QuestionBody":"Which word does NOT belong with the others?","Answers":["a. parsley","b. basil","c. dill","d. mayonnaise"],"CorrectAnswer":"3","degree":"1"},{"QuestionBody":"Which word does NOT belong with the others?","Answers":["a. book","b. index","c. glossary","d. chapter"],"CorrectAnswer":"0","degree":"2"},{"QuestionBody":"Window is to pane as book is to","Answers":["a. novel.","b. glass.","c. cover.","d. page."],"CorrectAnswer":"3","degree":"3"},{"QuestionBody":"Secretly is to openly as silently is to","Answers":["a. scarcely.","b. impolitely.","c. noisily.","d. quietly."],"CorrectAnswer":"2","degree":"4"},{"QuestionBody":"Artist is to painting as senator is to","Answers":["a. attorney.","b. law.","c. politician.","d. constituents."],"CorrectAnswer":"1","degree":"1"},{"QuestionBody":"Play is to actor as concert is to","Answers":["a. symphony.","b. musician.","c. piano.","d. percussion."],"CorrectAnswer":"1","degree":"2"},{"QuestionBody":"Pride is to lion as school is to","Answers":["a. teacher.","b. student.","c. self-respect.","d. fish."],"CorrectAnswer":"3","degree":"3"},{"QuestionBody":"Guide is to direct as reduce is to","Answers":["a. decrease.","b. maintain.","c. increase.","d. preserve."],"CorrectAnswer":"0","degree":"4"},{"QuestionBody":"Yard is to inch as quart is to","Answers":["a. gallon.","b. ounce.","c. milk.","d. liquid."],"CorrectAnswer":"1","degree":"1"},{"QuestionBody":"Candid is to indirect as honest is to","Answers":["a. frank.","b. wicked.","c. truthful.","d. untruthful."],"CorrectAnswer":"3","degree":"2"},{"QuestionBody":"Pen is to poet as needle is to","Answers":["a. thread.","b. button.","c. sewing.","d. tailor."],"CorrectAnswer":"3","degree":"3"},{"QuestionBody":"Which word does NOT belong with the others?","Answers":["a. couch","b. rug","c. table","d. chair"],"CorrectAnswer":"1","degree":"4"},{"QuestionBody":"Which word does NOT belong with the others?","Answers":["a. tape","b. twine","c. cord","d. yarn"],"CorrectAnswer":"2","degree":"1"},{"QuestionBody":"Look at this series: 1,000, 200, 40, . . . What number should come next?","Answers":["a.8","b. 10","c. 15","d.20"],"CorrectAnswer":"1","degree":"2"},{"QuestionBody":"Look at this series: 2, 1,1/2, 1/4, . . . What number should come next?","Answers":["a.1/3","b. 1/8","c.2/8","d.1/16"],"CorrectAnswer":"2","degree":"3"},{"QuestionBody":"28 25 5 21 18 5 14","Answers":["a.115","b. 108","c. 117","d.510"],"CorrectAnswer":"1","degree":"3"},{"QuestionBody":"75 65 85 55 45 85 35","Answers":["a.25 15","b. 25 85","c. 35 25","d. 85 35"],"CorrectAnswer":"1","degree":"4"},{"QuestionBody":"Look at this series: XXIV, XX, __, XII, VIII, . . .What number should fill the blank?","Answers":["a.XXII","b. XIII","c.XVI","d. IV"],"CorrectAnswer":"3","degree":"1"},{"QuestionBody":"Look at this series: VI, 10, V, 11, __, 12, III, . . . What number should fill the blank?","Answers":["a.II","b. IV","c.IX","d. 14"],"CorrectAnswer":"2","degree":"2"},{"QuestionBody":"Look at this series: J14, L16, __, P20, R22, . . . What number should fill the blank?","Answers":["a.S24","b. N18","c.M18","d. t24"],"CorrectAnswer":"2","degree":"3"},{"QuestionBody":"Look at this series: F2, __, D8, C16, B32, . . . What number should fill the blank?","Answers":["a.A16","b. G4","c.E4","d. E3"],"CorrectAnswer":"3","degree":"4"},{"QuestionBody":"Look at this series: V, VIII, XI, XIV, __, XX, . . . What number should fill the blank?","Answers":["a.IX","b. XXIII","c.XV","d. XVII"],"CorrectAnswer":"4","degree":"1"},{"QuestionBody":"CMM EOO GQQ _____ KUU","Answers":["a. GRR","b. GSS","c. ISS","d. ITT"],"CorrectAnswer":"3","degree":"2"},{"QuestionBody":"QAR RAS SAT TAU","Answers":["a. UAV","b. UAT","c. TAS","d. TAT"],"CorrectAnswer":"1","degree":"3"},{"QuestionBody":"DEF DEF 2 DE 2 F 2 _____ D 2 E 2 F 3","Answers":["a. DEF3","b. D3EF3","c. D2E3F","d. D2E2F2"],"CorrectAnswer":"4","degree":"4"},{"QuestionBody":"QPO NML KJI _____ EDC","Answers":["a. HGF","b. CAP","c. JKL","d. HGI"],"CorrectAnswer":"1","degree":"1"},{"QuestionBody":"JAK KBL LCM MDN","Answers":["a. OEP","b. NEO","c. MEN","d. PFQ"],"CorrectAnswer":"2","degree":"2"},{"QuestionBody":"ELFA GLHA ILJA _____ MLNA","Answers":["a. OLPA","b. KLMA","c. LLMA","d. KLLA"],"CorrectAnswer":"4","degree":"3"},{"QuestionBody":"P 5 QR P 4 QS P 3 QT _____ PQV","Answers":["a. PQW","b. PQV","c. P2QU","d. PQ3U"],"CorrectAnswer":"3","degree":"4"},{"QuestionBody":"FAG GAF HAI IAH","Answers":["a. JAK","b. HAL","c. HAK","d. JAI"],"CorrectAnswer":"1","degree":"1"},{"QuestionBody":"BCB DED FGF HIH","Answers":["a. JKJ","b. HIH","c. IJI","d. JHJ"],"CorrectAnswer":"1","degree":"2"},{"QuestionBody":"ZA 5 Y 4 B XC 6 W 3 D","Answers":["a. E7V","b. V2E","c. VE5","d. VE7"],"CorrectAnswer":"4","degree":"3"},{"QuestionBody":"SIAMESE : CAT","Answers":["a. type : breed","b. dog : puppy","c. mark : spot","d. romaine : lettuce"],"CorrectAnswer":"2","degree":"4"},{"QuestionBody":"Which word does NOT belong with the others?","Answers":["a.street","b.freeway","c.interstate","d.expressway"],"CorrectAnswer":"3","degree":"1"},{"QuestionBody":"Which word does NOT belong with the others?","Answers":["a. corena","b. retina","c. pupil","d. vision"],"CorrectAnswer":"4","degree":"2"},{"QuestionBody":"Which word does NOT belong with the others?","Answers":["a. heading","b. body","c. letter","d. closing"],"CorrectAnswer":"3","degree":"3"},{"QuestionBody":"Which word does NOT belong with the others?","Answers":["a. book","b. index","c. glossary","d. chapter"],"CorrectAnswer":"1","degree":"4"},{"QuestionBody":"Which word does NOT belong with the others?","Answers":["a. couch","b. rug","c. table","d. chair"],"CorrectAnswer":"2","degree":"1"}];
+
+
+
+////////////////// display random questions /////////////////////////////////
+
+          var Engstr='{"English":{"Questions":['+JSON.stringify(str[arry[0]]);
+        for( var k=1; k<20;k++)
+        {
+            Engstr+=',';
+            Engstr+=JSON.stringify(str[arry[k]]);
+        }
+            Engstr +=']}}';
+
+
+        var IQstr='{"IQ":{"Questions":['+JSON.stringify(str2[arry[0]]);
+        for( var k=1; k<30;k++)
+        {
+            IQstr+=',';
+            IQstr+=JSON.stringify(str2[arry[k]]);
+        }
+            IQstr +=']}}';
+
+
+//////////////////////////////////////////////////////////////////
+    var obj = JSON.parse(Engstr);
+    var objc=JSON.parse(IQstr);
+    var ENGexam = obj.English;
+    var IQexam=objc.IQ;
+    var HTMLtxt,t, phtml="";
+    var fbtn, pbtn,nbtn, lbtn;
+    var index = 0;
+    var temp;
+    var correctA;
+    var testEX=0;
+    var degree =0;
+    var v=0;
+    var pid;
+    //show exam mode or practice mode
+    var flag=0;
+    //number of answered questions
+    var answered=0;
+    //number of skipped questions
+    var s=0;
+    var ENG_ans = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,-1];
+    var IQ_ans =[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1];
+
+    function drowQuestion(idx,testEX)
+      {
+
+        var Q;
+        if(testEX==0)
+        {
+          Q = ENGexam.Questions[idx];
+        }
+        else
+        {
+          Q = IQexam.Questions[idx];
+        }
+
+        //find div and change HTML
+        HTMLtxt=" ";
+        HTMLtxt = "<h2>Quesion "+ (idx+1) +"</h2>";
+        HTMLtxt += "<h3>"+ Q.QuestionBody +"</h3>";
+        HTMLtxt += "<form>";
+        var a ;
+        if(testEX==0)
+        {
+            a = ENG_ans[idx];
+        }
+        else if(testEX==1)
+        {
+            a = IQ_ans[idx];
+        }
+            if(a == -1)
+            {
+                for(i=0;i<Q.Answers.length;i++)
+                    HTMLtxt += '<input type="button" name="answer" class="btn" id="'+i+'" value="'+Q.Answers[i]+'"/><br/>';
+            }
+            else
+            {
+                for(i=0;i<Q.Answers.length;i++)
+                    if(a == i)
+                    {
+                        HTMLtxt += '<input type="button" name="answer" class="btn ans" id="'+i+'" value="'+Q.Answers[i]+'"/><br/>';
+                        answered++;
+                    }
+                    else
+                    {
+                        HTMLtxt += '<input type="button" name="answer" class="btn" id="'+i+'" value="'+Q.Answers[i]+'"/><br/>';
+                    }
+            }
+        HTMLtxt += '</form>';
+        $("#myexam").append(HTMLtxt);
+
+        $("#0").click(function() {
+
+         // Q = exam.Questions[idx];
+          $(this).addClass('ans');
+          $("#1").removeClass('ans');
+          $("#2").removeClass('ans');
+          $("#3").removeClass('ans');
+
+            //put this answer in an array
+           // ans[idx] = 0;
+           if(testEX==0)
+           {
+                   ENG_ans[idx]=0;
+           }
+           else if(testEX==1)
+           {
+                   IQ_ans[idx]=0;
+           }
+
+
+        });
+
+        $("#1").click(function() {
+          $(this).addClass('ans');
+          $("#0").removeClass('ans');
+          $("#2").removeClass('ans');
+          $("#3").removeClass('ans');
+
+        //  ans[idx] = 1;
+           if(testEX==0)
+           {
+                   ENG_ans[idx]=1;
+           }
+           else if(testEX==1)
+           {
+                   IQ_ans[idx]=1;
+           }
+
+
+        });
+
+        $("#2").click(function() {
+          $(this).addClass('ans');
+          $("#0").removeClass('ans');
+          $("#1").removeClass('ans');
+          $("#3").removeClass('ans');
+
+        //  ans[idx] = 2;
+            if(testEX==0)
+           {
+                   ENG_ans[idx]=2;
+           }
+           else if(testEX==1)
+           {
+                   IQ_ans[idx]=2;
+           }
+
+
+        });
+
+        $("#3").click(function() {
+          $(this).addClass('ans');
+          $("#0").removeClass('ans');
+          $("#1").removeClass('ans');
+          $("#2").removeClass('ans');
+
+        //  ans[idx] = 3;
+           if(testEX==0)
+           {
+                   ENG_ans[idx]=3;
+           }
+           else if(testEX==1)
+           {
+                   IQ_ans[idx]=3;
+           }
+
+
+        });
+
+      }
+
+      //side div
+     function drowWait(idx){
+         phtml+="<p name='sk' class='skipped' id='"+idx+"'>Question "+(idx+1)+"<br></p>";
+         //v++;
+        $(".wait").append(phtml);
+
+
+        $('p[name=sk]').click(function(){
+            $("#myexam").empty();
+            pid = parseInt(this.id);
+            drowQuestion(pid,testEX);
+        });
+      }
+
+
+      function correct(idx){
+
+      //  Q = ENGexam.Questions[idx];
+        if(testEX==0)
+        {
+          Q = ENGexam.Questions[idx];
+        }
+        else if(testEX==1)
+        {
+          Q = IQexam.Questions[idx];
+        }
+
+        //find div and change HTML
+        HTMLtxt = "<h2>Quesion "+ (idx+1) +"</h2>";
+        HTMLtxt += "<h3>"+ Q.QuestionBody +"</h3>";
+        HTMLtxt += "<form>";
+        for(i=0;i<Q.Answers.length;i++)
+        {
+          HTMLtxt += '<input type="button" name="answer" class="btn" id="'+i+'" value="'+Q.Answers[i]+'"/><br/>';
+          if(i==Q.CorrectAnswer)
+            correctA = i;
+        }
+        HTMLtxt += '</form>';
+        correctA = Q.CorrectAnswer;
+
+       $("#myexam").append(HTMLtxt);
+
+        $("input[name=answer]").each(function() {
+          if(this.id == correctA)
+          $(this).addClass('corr');
+        });
+      }
+
+//hilight user ans and correct ans after finishing practice mode
+      function hilightUserAnsE(idx)
+      {
+
+              Q = ENGexam.Questions[idx];
+
+        //find div and change HTML
+        HTMLtxt = "<h2>Quesion "+ (idx+1) +"</h2>";
+        HTMLtxt += "<h3>"+ Q.QuestionBody +"</h3>";
+        HTMLtxt += "<form>";
+        for(i=0;i<Q.Answers.length;i++)
+        {
+          HTMLtxt += '<input type="button" name="answer" class="btn" id="'+i+'" value="'+Q.Answers[i]+'"/><br/>';
+          if(i==Q.CorrectAnswer)
+            correctA = i;
+        }
+        HTMLtxt += '</form>';
+        correctA = Q.CorrectAnswer;
+
+       $("#myexam").append(HTMLtxt);
+
+        $("input[name=answer]").each(function() {
+          if(this.id == correctA)
+          $(this).addClass('corr');
+        });
+
+        $("input[name=answer]").each(function() {
+            if(ENG_ans[idx] != -1)
+                if(parseInt(this.id) == ENG_ans[idx])
+                    $(this).addClass('ans');
+        });
+                
+
+      }
+
+
+
+function hilightUserAnsIQ(idx)
+      {
+
+              Q = IQexam.Questions[idx];
+
+        //find div and change HTML
+        HTMLtxt = "<h2>Quesion "+ (idx+1) +"</h2>";
+        HTMLtxt += "<h3>"+ Q.QuestionBody +"</h3>";
+        HTMLtxt += "<form>";
+        for(i=0;i<Q.Answers.length;i++)
+        {
+          HTMLtxt += '<input type="button" name="answer" class="btn" id="'+i+'" value="'+Q.Answers[i]+'"/><br/>';
+          if(i==Q.CorrectAnswer)
+            correctA = i;
+        }
+        HTMLtxt += '</form>';
+        correctA = Q.CorrectAnswer;
+
+       $("#myexam").append(HTMLtxt);
+
+        $("input[name=answer]").each(function() {
+          if(this.id == correctA)
+          $(this).addClass('corr');
+        });
+
+        $("input[name=answer]").each(function() {
+            if(IQ_ans[idx] != -1)
+                if(parseInt(this.id) == IQ_ans[idx])
+                    $(this).addClass('ans');
+        });
+                
+
+      }
+
+
+      ///////////////////////////////////////////// TIMER ////////////////////////////
+
+      var min=00;
+      var sec=00;
+      var eng_min;
+      var eng_sec;
+      var iq_min;
+      var iq_sec;
+      function stopWatch()
+      {
+
+        document.getElementById("minutes").innerHTML = min;
+        document.getElementById("seconds").innerHTML =sec;
+
+        if(min>=0)
+        {
+          if(sec==00)
+          {
+            min--;
+            sec=59;
+          }
+          else
+          {
+            sec--;
+          }
+        }
+
+        else
+        {
+
+          clearInterval(t);
+          document.getElementById("timer").style.display="none";
+          document.getElementById("exm").style.display="none";
+          document.getElementById("myexam").style.display="none";
+          alert("time out");
+          examFinish();
+        }
+      }
+
+      function set_timer()
+      {
+        if(testEX==0)
+        {
+            min=10;
+            sec=00;
+        }
+        else if(testEX==1)
+        {
+            eng_min=9-min;
+            eng_sec=59-sec;
+            min=15;
+            sec=00;
+        }
+        t=setInterval("stopWatch()",1000);
+      }
+
+    ///////////////////////// exam result ///////////////////////////////////////////////////
+      var eng_result=0;
+      var iq_result=0;
+      var iq_count=0;
+      var eng_count=0;
+      var iq_percentage;  //124
+      var eng_percentage; //110
+      var eng_prcntge;
+      var iq_prcntge;
+
+      function result()
+      {
+          if(testEX==0)
+          {
+              for(l=0;l<20;l++)
+              {
+                  if(ENGexam.Questions[l].CorrectAnswer==ENG_ans[l])
+                  {
+                      eng_result+=ENGexam.Questions[l].degree;
+                      eng_count++;
+                  }
+
+              }
+          }
+          else if(testEX==1)
+          {
+              for(v=0;v<30;v++)
+              {
+                  if(IQexam.Questions[v].CorrectAnswer==ENG_ans[v])
+                  {
+                      iq_result+=IQexam.Questions[v].degree;
+                      iq_count++;
+                  }
+              }
+          }
+          eng_percentage=(eng_result/110)*100;
+          iq_percentage=(iq_result/124)*100;
+          if(eng_percentage>=60)
+          {
+              eng_prcntge=" congrates you are passed";
+          }
+          else
+          {
+              eng_prcntge=" sorry you are failed";
+          }
+          if(iq_percentage>=60)
+          {
+              iq_prcntge=" congrates you are passed";
+          }
+          else
+          {
+              iq_prcntge=" sorry you are failed";
+          }
+          iq_min=14- min;
+          iq_sec=59- sec;
+
+          alert("your english result = "+iq_result+"\n your iq result = "+iq_result+" \n \n time spent in english = "+eng_min+":"+eng_sec+"\n time spent in iq = "+iq_min+":"+iq_sec+"\n \n number of question you have answered in english : "+eng_count+"\n number of question you have answered in iq : "+iq_count+"\n \n number of question you have skipped in english : "+(110-eng_count)+"\n number of question you have skipped in iq : "+(124-iq_count)+"\n  \n your percentage in english : "+eng_percentage+" ===> "+eng_prcntge+"\n your percentage in iq : "+iq_percentage+" ===> "+iq_prcntge);
+      }
+
+
+      ///////////////////////////////////////////////// FINISH EXAM ///////////////////////////////////
+
+      function examFinish()
+      {
+
+        document.getElementById("myexam").style.display="none";
+        document.getElementById("exm").style.display="none";
+
+
+        if(testEX==0)
+        {
+            $(".wait").empty();
+            phtml="";
+          //document.getElementById("strtIQ").style.display="block";
+         // document.getElementById("startIQ").style.display="inline-flex";
+          alert("IQ exam will start be ready ^^ ");
+          // strtIQ.style.display="inline-block";
+          $("#myexam").empty();
+          index = 0;
+          testEX=1;
+          set_timer();
+          drowQuestion(index,testEX);
+          document.getElementById("myexam").style.display="inline-block";
+          document.getElementById("exm").style.display="inline-block";
+          document.getElementById("timer").style.display="block";
+          document.getElementById("startIQ").style.display="none";
+        }
+        else if(testEX==1)
+        {
+         // alert("congrates you finish the 2 exams wait the result =D xd");
+            if(flag == 0)
+            {
+                $("#solveE").show();
+                $("#solveIQ").show();
+                result();
+                // index = 0;
+                // testEX=0;
+                // //hilightUserAns(index,testEX);
+                // document.getElementById("myexam").style.display="inline-block";
+                 document.getElementById("exm").style.display="inline-block";
+                $("#solveE").click(function(event) {
+                    index = 0;
+                    testEX = 0;
+                    $("#myexam").empty();
+                    document.getElementById("myexam").style.display="inline-block";
+                    hilightUserAnsE(index);
+
+                $("#fbtn").click(function(){
+                    $("#myexam").empty();
+                    index = 0;
+                    hilightUserAnsE(index);
+                    document.getElementById("myexam").style.display="inline-block";
+                });
+
+                 $("#pbtn").click(function(){
+                  $("#myexam").empty();
+                  //index--;
+                  if(index < 0)
+                  {
+                        index = ENGexam.Questions.length -1;
+                  }
+                    hilightUserAnsE(index);
+                    document.getElementById("myexam").style.display="inline-block";
+                });
+
+                 $("#nbtn").click(function(){
+                  $("#myexam").empty();
+                        if(index == ENGexam.Questions.length)
+                        {
+                            index = 0;
+                        }
+                    hilightUserAnsE(index);
+                    document.getElementById("myexam").style.display="inline-block";
+                });
+
+                  $("#lbtn").click(function(){
+                  $("#myexam").empty();
+                 
+                   index = ENGexam.Questions.length -1;
+                    
+                  hilightUserAnsE(index);
+                  document.getElementById("myexam").style.display="inline-block";
+                });
+
+                });
+
+                $("#solveIQ").click(function(event) {
+                    index = 0;
+                    testEX = 1;
+                    $("#myexam").empty();
+                    document.getElementById("myexam").style.display="inline-block";
+                    hilightUserAnsIQ(index);
+
+                });
+            }
+            else if(flag==1)
+            {
+                result();
+            }
+            
+
+    }
+  }
+
+      ///////////////////////////////////////////////// on load Fuction ///////////////////////////////
+
+      onload = function () {
+
+        document.getElementById("startIQ").style.display="none";
+        //find something do something
+        drowQuestion(index,testEX);
+
+        $("#fbtn").click(function(){
+          $("#myexam").empty();
+          index = 0;
+          drowQuestion(index,testEX);
+        });
+
+        $("#pbtn").click(function(){
+          $("#myexam").empty();
+          index--;
+          if(index < 0)
+          {
+            // index = ENGexam.Questions.length -1;
+            if(testEX==0)
+              {
+                  index = ENGexam.Questions.length -1;
+              }
+              else if(testEX==1)
+              {
+                  index = IQexam.Questions.length -1;
+              }
+          }
+            drowQuestion(index,testEX);
+        });
+
+        $("#nbtn").click(function(){
+          $("#myexam").empty();
+          index++;
+          if(testEX==0)
+              {
+                  if(index == ENGexam.Questions.length)
+                  {
+                    index = 0;
+                  }
+
+                  if(ENG_ans[index-1] == -1)
+                  {
+                      $(".wait").empty();
+                      drowWait(index-1);
+                  }
+              }
+              else if(testEX==1)
+              {
+
+                  if(index == IQexam.Questions.length)
+                  {
+                    index = 0;
+                 }
+                 if(IQ_ans[index-1] == -1)
+                {
+                    $(".wait").empty();
+                    drowWait(index-1);
+                }
+              }
+
+            drowQuestion(index,testEX);
+            // if(ENG_ans[index-1] == -1)
+            // {
+            //     $(".wait").empty();
+            //     drowWait(index-1);
+            // }
+            // else if(IQ_ans[index-1] == -1)
+            // {
+            //     $(".wait").empty();
+            //     drowWait(index-1);
+            // }
+        });
+
+        $("#lbtn").click(function(){
+          $("#myexam").empty();
+         // index = ENGexam.Questions.length -1;
+            if(testEX==0)
+              {
+                  index = ENGexam.Questions.length -1;
+              }
+              else if(testEX==1)
+              {
+                  index = IQexam.Questions.length -1;
+              }
+          drowQuestion(index,testEX);
+        });
+
+
+        $("#corr").click(function() {
+
+          $("#myexam").empty();
+           correct(index);
+        });
+
+        $("#skip").click(function(event) {
+            s++;
+            $(".wait").empty();
+            drowWait(index);
+            //drow next question
+             $("#myexam").empty();
+          index++;
+          if(testEX==0)
+              {
+                  if(index == ENGexam.Questions.length)
+                  {
+                    index = 0;
+                  }
+              }
+              else if(testEX==1)
+              {
+
+                  if(index == IQexam.Questions.length)
+                  {
+                    index = 0;
+                 }
+              }
+            drowQuestion(index,testEX);
+        });
+
+        ///////////////////////////// Finish (close) Exam //////////////////////////////
+        $("#fin").click(function(event) {
+
+          clearInterval(t);
+          document.getElementById("timer").style.display="none";
+          examFinish();
+
+        });
+
+        $("#p").click(function(){
+            $(".ch").css('display', 'none');
+            $(".wrapper").css('display', 'inline-block');
+            $(".wait").css('display', 'inline-block');
+            $("#skip").hide();
+            $("#solveE").hide();
+            $("#solveIQ").hide();
+            flag = 0;
+            set_timer();
+        });
+
+        $("#e").click(function(){
+            $(".ch").css('display', 'none');
+            //show exam div (as practice div, but without hint button)
+            $(".wrapper").css('display', 'inline-block');
+            $(".wait").css('display', 'inline-block');
+            $("#corr").hide();
+            $("#solveE").hide();
+            $("#solveIQ").hide();
+            set_timer();
+            flag=1;
+        });
+
+      }
+
+</script>
+</head>
+
+<body background="#ccccb3">
+    <div class="ch">
+        <input type="button" class="choose" value="Exam Mode" id="e"/>
+        <input type="button" class="choose" value="Practice Mode" id="p"/>
+    </div>
+    <div class="wrapper">
+        <div id="myexam" class="exam"></div>
+
+
+        <div class="container">
+            <div id="exm" class="exam">
+
+               <input type="button" class="control" value="First" id="fbtn"/>
+                <input type="button" class="control" value="Prev" id="pbtn"/>
+                <input type="button" class="control" value="Next" id="nbtn"/>
+                <input type="button" class="control" value="Last" id="lbtn"/>
+                <input type="button" class="control" value="Finish Exam" id="fin"/>
+                <input type="button" class="control" value="Hint" id="corr"/>
+                <input type="button" class="control" value="Mark" id="skip"/>
+                <input type="button" class="control" value="Solve English" id="solveE"/>
+                <input type="button" class="control" value="Solve IQ" id="solveIQ"/>
+            </div>
+            <br/>
+            <br/>
+              <div id="timer">
+
+                <pre><b>Time</b> <span id="minutes">00</span>:<span id="seconds">00</span></pre>
+
+              </div>
+
+        </div>
+
+
+        <div class="skip">
+
+        </div>
+
+        <div id="startIQ">
+          <input type="button" value="start IQ exam" id="strtIQ"/>
+        </div>
+
+    </div>
+    <div class="wait">
+    </div>
+
+</body>
+</html>

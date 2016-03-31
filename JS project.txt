@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>www.css3maker.com</title>
+<script src="jquery-2.1.4.js"></script>
+
+<!-- STYLE  SECTION -->
+
+<style type="text/css">
+.btn {
+  background: #f4f4f4;
+  background-image: -webkit-linear-gradient(top, #f4f4f4, #f4f4f4);
+  background-image: -moz-linear-gradient(top, #f4f4f4, #f4f4f4);
+  background-image: -ms-linear-gradient(top, #f4f4f4, #f4f4f4);
+  background-image: -o-linear-gradient(top, #f4f4f4, #f4f4f4);
+  background-image: linear-gradient(to bottom, #f4f4f4, #f4f4f4);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Courier New;
+  color: #1c001c;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+  height: 40px;
+  width: 300px;
+  margin: 5px;
+}
+
+.btn:hover {
+  background: #00a3c2;
+  background-image: -webkit-linear-gradient(top, #00a3c2, #00a3c2);
+  background-image: -moz-linear-gradient(top, #00a3c2, #00a3c2);
+  background-image: -ms-linear-gradient(top, #00a3c2, #00a3c2);
+  background-image: -o-linear-gradient(top, #00a3c2, #00a3c2);
+  background-image: linear-gradient(to bottom, #00a3c2, #00a3c2);
+  text-decoration: none;
+  height: 40px;
+  width: 300px;
+  margin: 5px;
+}
+
+.corr {
+  
+  background-image: -webkit-linear-gradient(top, #ff329e, #ff329e);
+  background-image: -moz-linear-gradient(top, #ff329e, #ff329e);
+  background-image: -ms-linear-gradient(top, #ff329e, #ff329e);
+  background-image: -o-linear-gradient(top, #ff329e, #ff329e);
+  background-image: linear-gradient(to bottom, #ff329e, #ff329e);
+}
+
+.ans{
+      background-image: -webkit-linear-gradient(top, #AB0000, #AB0000);
+  background-image: -moz-linear-gradient(top, #AB0000, #AB0000);
+  background-image: -ms-linear-gradient(top, #AB0000, #AB0000);
+  background-image: -o-linear-gradient(top, #AB0000, #AB0000);
+  background-image: linear-gradient(to bottom, #AB0000, #AB0000);
+}
+
+.wrapper{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    border: 2px solid brown;
+    border-radius: 25px;
+    text-align:center;
+  }
+  .exam{
+    display:inline-block;
+  }
+/* End of Your Generated css 
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+</style>
+
+<script type="text/javascript">
+  var str = '{"Exam":{"Questions":[{"QuestionBody":"Can you hear what he is .......?","Answers":["(a) saying","(b) speaking","(c) telling","(d) talking"],"CorrectAnswer":"0"},{"QuestionBody":"She has not come home ........","Answers":["(a) still","(b) already","(c) yet","(d) till"],"CorrectAnswer":"2"},{"QuestionBody":"I ....... TV yesterday evening.","Answers":["(a) saw","(b) looked","(c) viewed","(d) watched"],"CorrectAnswer":"3"},{"QuestionBody":"We live ....... the city centre.","Answers":["(a) near","(b) next","(c) by","(d) nearby"],"CorrectAnswer":"0"},{"QuestionBody":"She looks ....... a famous film star.","Answers":["(a) as","(b) like","(c) similar","(d) same"],"CorrectAnswer":"1"},{"QuestionBody":"This television gives you the ....... news.","Answers":["(a) last","(b) latest","(c) least","(d) later"],"CorrectAnswer":"1"},{"QuestionBody":"I only ....... one mistake in last night\'s test.","Answers":["(a) made","(b) done","(c) did","(d) make"],"CorrectAnswer":"0"},{"QuestionBody":"I want you to tell me the ....... truth.","Answers":["(a) all","(b) exact","(c) real","(d) whole"],"CorrectAnswer":"3"},{"QuestionBody":"He is looking ....... a present to buy his girlfriend.","Answers":["(a) for","(b) at","(c) in","(d) on"],"CorrectAnswer":"0"},{"QuestionBody":"That\'s what I would like ....... Christmas.","Answers":["(a) for","(b) at","(c) in","(d) on"],"CorrectAnswer":"0"},{"QuestionBody":"You must not drink and then ....... a car.","Answers":["(a) lead","(b) drive","(c) take","(d) guide"],"CorrectAnswer":"1"},{"QuestionBody":"Please be ....... when you cross this road.","Answers":["(a) careless","(b) carefree","(c) caring","(d) careful"],"CorrectAnswer":"3"},{"QuestionBody":"Do what you like, I really don\'t ........","Answers":["(a) concern","(b) interested","(c) dislike","(d) mind"],"CorrectAnswer":"3"},{"QuestionBody":"If you want to ....... that book remember to bring it back.","Answers":["(a) borrow","(b) lend","(c) loan","(d) owe"],"CorrectAnswer":"0"},{"QuestionBody":"When your train arrives, I\'ll ....... you from the station.","Answers":["(a) take.","(b) bring","(c) fetch","(d) remove"],"CorrectAnswer":"2"},{"QuestionBody":"I always get ....... early in the summer.","Answers":["(a) up","(b) over","(c) through","(d) on"],"CorrectAnswer":"0"},{"QuestionBody":"When you first meet someone, you usually shake them ....... the hand.","Answers":["(a) with","(b) on","(c) in","(d) by"],"CorrectAnswer":"3"},{"QuestionBody":"The teacher asked her students to do their ........","Answers":["(a) housework","(b) homework","(c) home duty","(d) house job"],"CorrectAnswer":"1"},{"QuestionBody":"The police officer told the children always to tell the ........","Answers":["(a) true","(b) facts","(c) information","(d) truth"],"CorrectAnswer":"3"},{"QuestionBody":"I\'m terribly sorry but I ....... what you said just now and I wonder if you could repeat it.","Answers":["(a) wasn\'t listen to","(b) wasn\'t hearing","(c) didn\'t hear","(d) didn\'t hearing"],"CorrectAnswer":"2"},{"QuestionBody":"I ....... attentively to the lecture on philosophy but I still didn\'t understand much of it.","Answers":["(a) heard","(b) listened","(c) was hearing","(d) was listen"],"CorrectAnswer":"1"},{"QuestionBody":"Can you ....... me all right over there because you are rather a long way away?","Answers":["(a) listening","(b) hearing","(c) listen","(d) hear"],"CorrectAnswer":"3"},{"QuestionBody":"I ....... what you are saying but that still doesn\'t make me want to change my mind one little bit.","Answers":["(a) listen","(b) hear.","(c) am listing","(d) am hearing"],"CorrectAnswer":"1"},{"QuestionBody":"I ....... to the concert every Monday on the radio and I imagine I am there listening to it in person.","Answers":["(a) listen","(b) am listening","(c) hear","(d) am hearing"],"CorrectAnswer":"0"},{"QuestionBody":"I should explain that he finds it very difficult to follow your conversation because he is very hard of ........","Answers":["(a) listen to","(b) listening","(c) to hear","(d) hearing"],"CorrectAnswer":"3"},{"QuestionBody":"Now will you please ....... me and pay attention to what I\'m saying because it\'s very important.","Answers":["(a) hear","(b) listen to","(c) hearing","(d) listening to"],"CorrectAnswer":"1"},{"QuestionBody":"You\'ve been making so much noise with your music that people at the far end of the road can ....... you.","Answers":["(a) listen to","(b) listening to","(c) hear","(d) hearing"],"CorrectAnswer":"2"},{"QuestionBody":"He sometimes pretends he can\'t ....... a single word you are saying but all the time he\'s taking it all in.","Answers":["(a) listen to","(b) listening to","(c) hear","(d) hearing"],"CorrectAnswer":"2"},{"QuestionBody":"I have been ....... strange stories about you recently but I do hope that there is no substance in them.","Answers":["(a) listened to","(b) listening to","(c) heard","(d) hearing"],"CorrectAnswer":"3"},{"QuestionBody":"The brothers will ....... school both together at the end the year.","Answers":["(a) end","(b) ending","(c) finish","(d) finishes"],"CorrectAnswer":"2"},{"QuestionBody":"I ___ watching TV when Paul and Simon arrived.","Answers":["(a) was","(b) is","(c) were","(d) am"],"CorrectAnswer":"1"},{"QuestionBody":"Do you think he ___ what I said?","Answers":["(a) understand","(b) understood","(c) understanding","(d) not exist"],"CorrectAnswer":"2"},{"QuestionBody":"She ___ to learn English in Malta next summer.","Answers":["(a) hopes","(b) hope","(c) hoping","(d) not exist"],"CorrectAnswer":"1"},{"QuestionBody":" I don\'t think I\'ve ever ___ on that sofa.","Answers":["(a) sitting","(b) sit","(c) sat","(d) not exist"],"CorrectAnswer":"3"},{"QuestionBody":"Tom ___ tired. ","Answers":["(a) looking","(b) looks","(c) look","(d) not exist"],"CorrectAnswer":"2"},{"QuestionBody":"When I was young I wanted to ___ a vet.","Answers":["(a) was","(b) am","(c) is","(d) be"],"CorrectAnswer":"4"},{"QuestionBody":"Did you used to ___ with dolls?","Answers":["(a) playing","(b) played","(c) play","(d) not exist"],"CorrectAnswer":"3"},{"QuestionBody":" I\'ve never ___ sushi before.","Answers":["(a) eat","(b) eaten","(c) ate","(d) not exist"],"CorrectAnswer":"3"},{"QuestionBody":"The window was already ___ when I got here.","Answers":["(a) break","(b) broke","(c) broken","(d) not exist"],"CorrectAnswer":"3"},{"QuestionBody":" Last night I ___ on the carpet and fell asleep.","Answers":["(a) lied","(b) lay","(c) lie","(d) not exist"],"CorrectAnswer":"2"},{"QuestionBody":"They climbed ___ the highest hill they could find.","Answers":["(a) under","(b) up","(c) for","(d) not exist"],"CorrectAnswer":"2"},{"QuestionBody":" I was born ___ May.","Answers":["(a) on","(b) in","(c) at","(d) not exist"],"CorrectAnswer":"2"},{"QuestionBody":" We got married ___ our son was born.","Answers":["(a) before","(b) up","(c) within","(d) not exist"],"CorrectAnswer":"1"},{"QuestionBody":" The farmer wakes up ___ sunrise.","Answers":["(a) on","(b) at","(c) of","(d) not exist"],"CorrectAnswer":"2"},{"QuestionBody":"The River Thames flows ____ London.","Answers":["(a) over","(b) on","(c) through","(d) not exist"],"CorrectAnswer":"3"},{"QuestionBody":" I think Sharon just drove ___ us.","Answers":["(a) on","(b) past","(c) from","(d) not exist"],"CorrectAnswer":"2"},{"QuestionBody":" We moved into our apartment ___ 2012.","Answers":["(a) at","(b) on","(c) in","(d) not exist"],"CorrectAnswer":"3"},{"QuestionBody":" She hurt her arm when she fell ___ her bike.","Answers":["(a) off","(b) down","(c) in","(d) not exist"],"CorrectAnswer":"1"},{"QuestionBody":" The bird flew low ___ our heads.","Answers":["(a) under","(b) on","(c) over","(d) not exist"],"CorrectAnswer":"3"},{"QuestionBody":" We have to get ___ the bus at the next stop.","Answers":["(a) down","(b) from","(c) off","(d) not exist"],"CorrectAnswer":"3"}]}}';
+
+    var obj = JSON.parse(str);
+    var exam = obj.Exam;
+    var HTMLtxt,t;
+    var fbtn, pbtn,nbtn, lbtn;
+    var index = 0;
+    var temp;
+    var correctA;
+    var Q;
+    var degree =0;
+    var ans = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1];
+    function drowQuestion(idx)
+      {
+        Q = exam.Questions[idx];
+
+
+        //find div and change HTML
+        HTMLtxt = "<h2>Quesion "+ (idx+1) +"</h2>";
+        HTMLtxt += "<h3>"+ Q.QuestionBody +"</h3>";
+        HTMLtxt += "<form>";
+        for(i=0;i<Q.Answers.length;i++)
+          HTMLtxt += '<input type="button" name="answer" class="btn" id="'+i+'" value="'+Q.Answers[i]+'"/><br/>';
+        HTMLtxt += '</form>';
+        $("#myexam").append(HTMLtxt);
+
+        $("#0").click(function() {
+
+         // Q = exam.Questions[idx];
+          $(this).addClass('ans');
+          $("#1").removeClass('ans');
+          $("#2").removeClass('ans');
+          $("#3").removeClass('ans');
+          
+            //put this answer in an array
+            ans[idx] = 0;
+          
+          
+        });
+
+        $("#1").click(function() {
+          $(this).addClass('ans');
+          $("#0").removeClass('ans');
+          $("#2").removeClass('ans');
+          $("#3").removeClass('ans');
+          ans[idx] = 1;
+          
+        });
+
+        $("#2").click(function() {
+          $(this).addClass('ans');
+          $("#0").removeClass('ans');
+          $("#1").removeClass('ans');
+          $("#3").removeClass('ans');
+          ans[idx] = 2;
+          
+        });
+
+        $("#3").click(function() {
+          $(this).addClass('ans');
+          $("#0").removeClass('ans');
+          $("#1").removeClass('ans');
+          $("#2").removeClass('ans');
+          ans[idx] = 3;
+          
+        });
+
+        
+      }
+
+
+      function correct(idx){
+        Q = exam.Questions[idx];
+        
+        //find div and change HTML
+        HTMLtxt = "<h2>Quesion "+ (idx+1) +"</h2>";
+        HTMLtxt += "<h3>"+ Q.QuestionBody +"</h3>";
+        HTMLtxt += "<form>";
+        for(i=0;i<Q.Answers.length;i++)
+        {
+          HTMLtxt += '<input type="button" name="answer" class="btn" id="'+i+'" value="'+Q.Answers[i]+'"/><br/>';
+          if(i==Q.CorrectAnswer)
+            correctA = i;
+        }
+        HTMLtxt += '</form>';
+        correctA = Q.CorrectAnswer;
+        
+       $("#myexam").append(HTMLtxt);
+       
+        $("input[name=answer]").each(function() {
+          if(this.id == correctA)
+          $(this).addClass('corr');
+        });
+        
+
+      }
+      onload = function () {
+        //find something do something
+        drowQuestion(index);
+        $("#fbtn").click(function(){
+          $("#myexam").empty();
+          index = 0;
+
+          drowQuestion(index);
+        });
+
+        $("#pbtn").click(function(){
+          $("#myexam").empty();
+          index--;
+          if(index < 0)
+          {
+            index = exam.Questions.length -1;
+          }
+            drowQuestion(index);
+        });
+        
+        $("#nbtn").click(function(){
+          $("#myexam").empty();
+          index++;
+          if(index == exam.Questions.length)
+          {
+            index = 0;
+          }
+            drowQuestion(index);
+        });
+        
+        $("#lbtn").click(function(){
+          $("#myexam").empty();
+          index = exam.Questions.length -1;
+          drowQuestion(index);
+        });
+        
+
+        $("#corr").click(function() {
+          
+          $("#myexam").empty();
+           correct(index);
+        });
+
+        $("#fin").click(function() {
+          for(i=0;i<Q.Answers.length;i++)
+          {
+            if(exam.Questions[i].CorrectAnswer == ans[i])
+              degree++;
+          }
+          alert(degree);
+        });
+
+
+      }
+
+</script>
+</head>
+
+<body>
+<div class="wrapper">
+<div id="myexam" class="exam"></div>
+<hr/>
+<div class="exam">
+        
+        <input type="button" value="First" id="fbtn"/>
+        <input type="button" value="Prev" id="pbtn"/>
+        <input type="button" value="Next" id="nbtn"/>
+        <input type="button" value="Last" id="lbtn"/>
+        <input type="button" value="Finish Exam" id="fin"/>
+        <input type="button" value="Hint" id="corr"/>
+      </div>
+</div>
+</body>
+</html>
